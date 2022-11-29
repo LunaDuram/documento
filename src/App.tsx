@@ -1,13 +1,13 @@
+import React from 'react';
 import './App.css';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
-  const name= 'Luna'
   return (
-    <div className="App">
-      <h1>Projeto com React</h1>
-      <p>Olá, {name}!</p>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
- 
+
 export default App;
